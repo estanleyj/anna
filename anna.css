@@ -1,0 +1,203 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    -webkit-font-smoothing: antialiased; 
+  }
+  
+  @media screen and (max-width: 1024px) {
+    body, input {
+      font-size: 14px; 
+    } 
+  }
+
+  @media screen and (max-width: 540px) {
+    body, input {
+      font-size: 12px; 
+    } 
+  }
+
+  #cell-a h1 {
+    font-size: 4em; 
+    font-weight: 700;
+  }
+
+  #cell-b h2 {
+    font-size: 1.5em; 
+    font-weight: 300; 
+    text-align: left;
+    line-height: 1.8em;
+  }
+
+  #cell-e h2 {
+    font-size: 1.5em; 
+    font-weight: 300; 
+    text-align: left;
+    line-height: 1.8em;
+  }
+  
+  body, .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+  body {
+    justify-content: flex-start; 
+  }
+
+  .box {
+    width: 50%;
+    height: 100vh;
+    min-height: 35em;
+    max-height: 60em;
+    padding: 6vw; 
+  }
+  
+  .full-width {
+    width: 100%;
+    padding: 3em 0;
+    text-align: center; 
+  }
+  
+  .smaller-box {
+    flex-direction: column;
+    width: 25%;
+    padding: 1em; 
+  }
+  
+  #cell-a h1 {
+    padding-bottom: 0.5em; 
+  }
+  
+  #cell-b div, #cell-f div {
+    width: 25em; 
+  }
+  
+  video {
+    width: 50%;
+    border-radius: .75em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2); 
+  }
+
+  img {
+    width: 100%;
+    border-radius: .75em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2); 
+  }
+
+  img:hover {
+    width: 100%;
+    border-radius: 100em;
+    box-shadow: 0 2em 5em #c0c5ff; 
+    transition: 1s;
+  }
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    #cell-a h1 {
+      font-size: 3em; 
+      font-weight: 700;
+    }
+  
+    #cell-b h2 {
+      font-size: 1.2em; 
+      font-weight: 300; 
+      text-align: left;
+      line-height: 1.8em;
+    }
+  
+    #cell-e h2 {
+      font-size: 1.2em; 
+      font-weight: 300; 
+      text-align: left;
+      line-height: 1.8em;
+    }
+    img {
+      width: 100%;
+      border-radius: .75em;
+      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2); 
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .box {
+      width: 100%;
+      max-height: 20em; 
+    }
+  
+    .smaller-box {
+      height: auto;
+      width: 50%; 
+    }
+    
+    #cell-a {
+      order: 1; 
+    }
+
+    #cell-b {
+      order: 2; 
+    }
+  
+    #cell-c {
+      order: 3; 
+    }
+  
+    #cell-d {
+      order: 4; 
+    }
+  
+    #cell-f {
+      order: 5; 
+    }
+  
+    #cell-e {
+      order: 6; 
+    }
+  }
+
+html, body, body div, h1, h2, img, small, strong, video, details {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+  font-size: 100%; 
+  background: transparent;
+  text-decoration: none;
+  color: #00ced1;
+  font-size: 36px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.button-container {
+  padding: 10px 10px 10px 10px;
+}
+
+button {
+  background: none;  
+  position: relative;
+  border: 0.336rem solid #00ced1;
+}
+
+button:hover {
+  border: 0.336rem solid #c0c5ff;
+}
+
+a:hover {
+  color: #c0c5ff;
+}
